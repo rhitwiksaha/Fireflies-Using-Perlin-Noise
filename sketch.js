@@ -8,7 +8,7 @@ let particles;
 
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  createCanvas(1360, 760);
   particles = new Array(100);
   for (let i = 0; i < particles.length; i++) {
     particles[i] = new Particle();
